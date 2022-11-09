@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           alias="origin"
+           fetch="https://github.com/blankjoker/" />
+
+  <default revision="main"
+           remote="github"
+           sync-j="4" />
+
+  <project name="zkl-node"      revision="main" remote="github" />
+  <project name="zkl-code"      revision="main" remote="github" />
+  <project name="zkl-docs"      revision="main" remote="github" />
+  <project name="zkl-gogin"     revision="main" remote="github" />
+  <project name="zkl-python"    revision="main" remote="github" />
+  <project name="zkl-study"     revision="main" remote="github" />
+  <project name="zkl-tool"      revision="main" remote="github" />
+  <project name="zkl-zsh"       revision="main" remote="github" />
+  <project name="zkl-k8s"       revision="main" remote="github" />
+<!-- ... -->
+
+</manifest>
