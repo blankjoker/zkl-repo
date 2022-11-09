@@ -8,15 +8,15 @@
            remote="github"
            sync-j="4" />
 
-  <project name="zkl-node"      revision="main" remote="github" />
-  <project name="zkl-code"      revision="main" remote="github" />
-  <project name="zkl-docs"      revision="main" remote="github" />
-  <project name="zkl-gogin"     revision="main" remote="github" />
-  <project name="zkl-python"    revision="main" remote="github" />
-  <project name="zkl-study"     revision="main" remote="github" />
-  <project name="zkl-tool"      revision="main" remote="github" />
-  <project name="zkl-zsh"       revision="main" remote="github" />
-  <project name="zkl-k8s"       revision="main" remote="github" />
+  <project name="zkl-node.git"      revision="main" remote="github" />
+  <project name="zkl-code.git"      revision="main" remote="github" />
+  <project name="zkl-docs.git"      revision="main" remote="github" />
+  <project name="zkl-gogin.git"     revision="main" remote="github" />
+  <project name="zkl-python.git"    revision="main" remote="github" />
+  <project name="zkl-study.git"     revision="main" remote="github" />
+  <project name="zkl-tool.git"      revision="main" remote="github" />
+  <project name="zkl-zsh.git"       revision="main" remote="github" />
+  <project name="zkl-k8s.git"       revision="main" remote="github" />
 <!-- ... -->
 
 </manifest>
