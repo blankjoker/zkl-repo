@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="origin"
-           alias="zkl"
-           fetch="https://github.com/blankjoker" />
+  <remote name="origin"
+          alias="zkl"
+          fetch="https://github.com/blankjoker" />
 
   <default revision="main"
-           remote="origin"
-           sync-j="8" />
+           remote="origin" />
 
   <project name="zkl-node"      revision="main"  remote="origin" />
   <project name="zkl-code"      revision="main"  remote="origin" />
