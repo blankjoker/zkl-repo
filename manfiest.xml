@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="github"
+  <remote  name="zkl-one"
            alias="origin"
-           fetch="https://github.com/blankjoker/" />
+           fetch="git@github.com:blankjoker/" />
 
   <default revision="main"
            remote="github"
-           sync-j="4" />
+           sync-j="8" />
 
-  <project name="zkl-node.git"      revision="main" remote="github" />
-  <project name="zkl-code.git"      revision="main" remote="github" />
-  <project name="zkl-docs.git"      revision="main" remote="github" />
-  <project name="zkl-gogin.git"     revision="main" remote="github" />
-  <project name="zkl-python.git"    revision="main" remote="github" />
-  <project name="zkl-study.git"     revision="main" remote="github" />
-  <project name="zkl-tool.git"      revision="main" remote="github" />
-  <project name="zkl-zsh.git"       revision="main" remote="github" />
-  <project name="zkl-k8s.git"       revision="main" remote="github" />
+  <project name="zkl-node.git"      revision="main"  remote="zkl-one" />
+  <project name="zkl-code.git"      revision="main"  remote="zkl-one" />
+  <project name="zkl-docs.git"      revision="main"  remote="zkl-one" />
+  <project name="zkl-gogin.git"     revision="main"  remote="zkl-one" />
+  <project name="zkl-python.git"    revision="main"  remote="zkl-one" />
+  <project name="zkl-study.git"     revision="main"  remote="zkl-one" />
+  <project name="zkl-tool.git"      revision="main"  remote="zkl-one" />
+  <project name="zkl-zsh.git"       revision="main"  remote="zkl-one" />
+  <project name="zkl-k8s.git"       revision="main"  remote="zkl-one" />
+
 <!-- ... -->
-
 </manifest>
